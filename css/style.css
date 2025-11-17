@@ -1,0 +1,158 @@
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner {
+  width: 100%;       
+  max-height: 650px; 
+  object-fit: cover; 
+}
+
+.main-image {
+	width: 100%;
+	max-width: 1200px;
+	display: block;
+	margin: 20px auto;
+	border-radius: 8px;
+}
+
+.tile-images {
+  width: 600px;
+  margin: 10px;
+}
+
+.example-hands {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 20px auto;
+}
+.Riichi-hands {
+	width: 100%;
+	max-width: 700px;
+	display: block;
+	margin: 20px auto;
+}
+
+nav {
+  background-color: #1a1a1a; 
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #66b2ff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #f9d423; /* Yellow accent on hover */
+  border-radius: 4px;
+}
+
+
+
+body {
+  background-color: #0a0a0a;  /* Deep black background */
+  color: #f0f0f0;             /* Light text color */
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+
+h1 {
+  color: #f9d423;             /* Warm yellow for the main title */
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #ffe97f;             /* Softer yellow for section titles */
+  margin-top: 40px;
+}
+
+.highlight {
+  color: #4ee44e;   /* Bright green accent */
+  font-weight: bold;
+}
+a {
+  color: #66b2ff;             /* Sky blue links */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+ul {
+  margin-left: 30px;
+  list-style-type: disc;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+form {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #0a0a0a;
+    color: #f0f0f0;
+}
+
+form input::placeholder, form textarea::placeholder {
+    color: #999;
+}
+
+form button {
+    background-color: #66b2ff;
+    color: #0a0a0a;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f9d423;
+    color: #0a0a0a;
+}
